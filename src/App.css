@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+* {
+    scrollbar-width: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+th {
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding: 15px 0px !important;
+    border: 1px solid rgba(145, 144, 144, 0.301);
+}
+
+.title {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.top-nav {
+    display: flex;
+    padding: 0px 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top-nav button {
+    width: 120px;
+    height: 40px;
+    border: none;
+    color: white;
+    background-color: blue;
+    border-radius: 8px;
+}
+
+.name {
+    width: 250px;
+}
+
+.director {
+    width: 230px;
+}
+
+.lang {
+    width: 150px;
+}
+
+.casts {
+    width: 320px;
+}
+
+.btns {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.action {
+    width: 225px;
+}
+
+.btn1 {
+    width: 60px;
+    height: 36px;
+    border-radius: 6px;
+    background-color: rgba(8, 140, 8, 0.884);
+    border: none;
+    color: white;
+    letter-spacing: 0.6px;
+}
+
+.btn2 {
+    width: 80px;
+    border-radius: 6px;
+    background-color: rgb(169, 7, 7);
+    border: none;
+    color: white;
+    letter-spacing: 0.6px;
+}
+
+td {
+    text-align: center;
+    border: 1px solid rgba(145, 144, 144, 0.301);
+    padding: 15px 0px !important;
+}
+
+.part {
+    border-right: 0px;
+}
