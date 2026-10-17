@@ -24,7 +24,7 @@ th {
 
 .top-nav {
     display: flex;
-    padding: 20px;
+    padding: 20px !important;
     align-items: center;
     justify-content: space-between;
 }
