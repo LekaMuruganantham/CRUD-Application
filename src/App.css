@@ -11,7 +11,7 @@
 th {
     font-size: 20px;
     letter-spacing: 1px;
-    padding: 15px 0px !important;
+    padding: 15px 10px !important;
     border: 1px solid rgba(145, 144, 144, 0.301);
 }
 
@@ -19,11 +19,12 @@ th {
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-style: normal;
+    margin: 0px;
 }
 
 .top-nav {
     display: flex;
-    padding: 0px 20px;
+    padding: 20px;
     align-items: center;
     justify-content: space-between;
 }
@@ -54,9 +55,17 @@ th {
 }
 
 .btns {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+
+.btn1,
+.btn2 {
+    height: 36px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 4px;
 }
 
 .action {
@@ -84,8 +93,9 @@ th {
 
 td {
     text-align: center;
+    vertical-align: middle;
     border: 1px solid rgba(145, 144, 144, 0.301);
-    padding: 15px 0px !important;
+    padding: 10px 0px !important;
 }
 
 .part {
