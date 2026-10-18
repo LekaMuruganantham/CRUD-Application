@@ -119,8 +119,8 @@ function App() {
         <h1 className='title'>MOVIES DETAILS</h1>
         <button onClick={() => addShow()}><b>ADD USER</b></button>
       </div>
-      <div>
-        <Table striped bordered hover variant="dark">
+      <div className="table-container">
+        <Table striped bordered hover variant="dark" className="movies-table">
           <thead className='text-center'>
             <tr>
               <th>SNO</th>
